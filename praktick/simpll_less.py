@@ -5,7 +5,7 @@ def guess(n):
         b=(n) 
     elif n>0 :   
         for i in range(n+1): 
-            if i*i== n and i!=n :  
+            if i*i== n :  
                 b=i  
                 i+=1  
                 if b is not None: 
